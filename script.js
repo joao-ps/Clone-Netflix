@@ -1,5 +1,5 @@
 $('.owl-carousel').owlCarousel({
-    loop:true,
+    loop:false,
     margin:10,
     nav:false,
     responsive:{
@@ -14,3 +14,16 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+const Hover = {
+    open(num){
+        let n = num;
+        document.querySelectorAll(".modal")[n].classList.remove("sair-animaçao");
+        document.querySelectorAll(".modal")[n].classList.add("animaçao");
+    },
+    close(num){
+        let n = num;
+        document.querySelectorAll(".modal")[n].classList.remove("animaçao");
+        document.querySelectorAll(".modal")[n].classList.add("sair-animaçao");
+    }
+}
