@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -138,7 +139,7 @@ main {
 .modal {
   height: 100%;
   width: 100%;
-  background: rgba(222, 222, 222, 0.5);
+  background: rgba(222, 222, 222, 0.85);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -171,7 +172,7 @@ main {
 }
 
 .modal .sinopse p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Supermercado One", cursive;
 }
 
 .modal .sinopse h4 {
