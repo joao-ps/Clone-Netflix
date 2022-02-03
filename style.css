@@ -136,20 +136,25 @@ main {
   cursor: pointer;
 }
 
-.modal {
+.box-filme img {
   height: 100%;
+}
+
+.modal {
+  height: 110%;
   width: 100%;
+  padding-top: 15px;
   background: rgba(222, 222, 222, 0.85);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .modal .sinopse {
-  padding: 20px 5px;
+  padding: 0px 5px;
   color: black;
 }
 
@@ -242,6 +247,25 @@ main {
   100% {
     -webkit-transform: translateY(368px);
             transform: translateY(368px);
+  }
+}
+
+@media (max-width: 1080px) {
+  .sinopse {
+    padding: 0px 0px;
+    color: black;
+  }
+  .sinopse h3 {
+    font-size: 15px;
+  }
+  .sinopse h3 span {
+    font-size: 15px;
+  }
+  .sinopse p {
+    font-size: 15px;
+  }
+  .sinopse h4 {
+    font-size: 13px;
   }
 }
 
