@@ -273,6 +273,25 @@ main {
   .container p {
     width: 70%;
   }
+  .box-filme img {
+    width: 100%;
+  }
+  .modal .sinopse {
+    padding: 20px 5px;
+    color: black;
+  }
+  .modal .sinopse h3 {
+    font-size: 18px;
+  }
+  .modal .sinopse h3 span {
+    font-size: 18px;
+  }
+  .modal .sinopse p {
+    font-size: 15px;
+  }
+  .modal .sinopse h4 {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 700px) {

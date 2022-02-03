@@ -198,7 +198,7 @@ main{
     .sinopse{
         padding: 0px 0px;
         color: black;
-
+    
         h3{
             font-size: 15px;
 
@@ -222,7 +222,37 @@ main{
         p{
             width: 70%;
         }
-    }   
+    }
+    
+    .box-filme{
+        img{
+            width: 100%;
+        }
+    }
+
+    .modal{
+    
+        .sinopse{
+            padding: 20px 5px;
+            color: black;
+    
+            h3{
+                font-size: 18px;
+    
+                span{
+                    font-size: 18px;
+                }
+            }
+    
+            p{
+                font-size: 15px;
+            }
+    
+            h4{
+                font-size: 16px;
+            }
+        }
+    }    
 }
 
 @media screen and (max-width: 700px) {
